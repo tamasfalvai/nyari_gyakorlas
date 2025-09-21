@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+    background: #fff5e0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(./img/4778067-uhd_2562_1440_25fps.gif);
+    background-attachment: fixed;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+}
+
+header h1{
+    color: white;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px black;
+}
+
+header h1:hover{
+    cursor: pointer;
+    text-shadow: 10px 10px 10px black;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-size: 30px;
+
+}
+
+nav ul li{
+    padding: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+#kép{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#box2{
+    background: #864b4b;
+    padding: 30px;
+    
+}
+
+
+#Kezdőlap{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    
+}
+
+
+#Tippek{
+    background: #669bbc;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+#gif2{
+    width: 100%;
+}
+
+#Kurzus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#kép4{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#kéép{
+    width: 95%;
+}
+
+#képsok{
+    width: 95%;
+}
+
+
+footer{
+    background: #780000;
+}
+
+#kep{
+    width: 95%;
+}
+
+
+footer main{
+    width: 60%;
+    padding: 10px;
+}
+
+
+footer{
+    color: white;
+}
+
+footer input{
+    color: black;
+}
